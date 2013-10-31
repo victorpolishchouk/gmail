@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sendMail by packages]">
+  <test name="sendMail.tests(failed)">
+    <classes>
+      <class name="sendMail.tests.openPageTest">
+        <methods>
+          <include name="testMethod"/>
+          <include name="StartDriver"/>
+          <include name="ShutDownDriver"/>
+        </methods>
+      </class> <!-- sendMail.tests.openPageTest -->
+      <class name="sendMail.tests.login$openPageTest">
+        <methods>
+          <include name="testMethod"/>
+        </methods>
+      </class> <!-- sendMail.tests.login$openPageTest -->
+    </classes>
+  </test> <!-- sendMail.tests(failed) -->
+</suite> <!-- Failed suite [sendMail by packages] -->

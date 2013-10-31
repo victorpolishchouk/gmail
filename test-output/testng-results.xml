@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15169" started-at="2013-10-31T21:48:52Z" finished-at="2013-10-31T21:49:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15169" started-at="2013-10-31T21:48:52Z" finished-at="2013-10-31T21:49:07Z">
+      <class name="sendMail.tests.login$openPageTest">
+        <test-method status="PASS" signature="StartDriver()[pri:0, instance:sendMail.tests.login$openPageTest@13552ed]" name="StartDriver" is-config="true" duration-ms="11873" started-at="2013-10-31T23:48:40Z" finished-at="2013-10-31T23:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method status="FAIL" signature="testMethod()[pri:0, instance:sendMail.tests.login$openPageTest@13552ed]" name="testMethod" duration-ms="15123" started-at="2013-10-31T23:48:52Z" finished-at="2013-10-31T23:49:07Z">
+          <exception class="java.lang.IllegalMonitorStateException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalMonitorStateException
+	at java.lang.Object.wait(Native Method)
+	at sendMail.tests.login$openPageTest.testMethod(login.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalMonitorStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="ShutDownDriver()[pri:0, instance:sendMail.tests.login$openPageTest@13552ed]" name="ShutDownDriver" is-config="true" duration-ms="258" started-at="2013-10-31T23:49:07Z" finished-at="2013-10-31T23:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShutDownDriver -->
+      </class> <!-- sendMail.tests.login$openPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
